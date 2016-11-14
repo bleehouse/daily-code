@@ -1,12 +1,11 @@
 
-cnt = 100
+cnt = 9
 
-while True:
-    cnt=cnt+1
-    if cnt > 9:
-        countToStr = str(cnt)
-        temp = round(len(countToStr)/2)
-        if countToStr[0:temp] == countToStr[temp:] :
-            print(countToStr[0:temp] + " " + countToStr[temp:])
-            break
-        
+while True :
+    cnt = cnt + 1
+    int2bin =  str(bin(cnt))[2:]
+    int2oct = str(oct(cnt))[2:]
+    if int2bin == int2bin[::-1] and int2oct == int2oct[::-1]  :
+        print(int2bin + " " + int2bin[::-1] +  " " )
+        print(int2oct + " " + int2oct[::-1] +  " " )
+        break
