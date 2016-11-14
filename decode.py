@@ -1,5 +1,6 @@
 import json
 
+
 def decode(data, default=None):
     if default is None:
         default = {}
