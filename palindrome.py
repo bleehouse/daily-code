@@ -1,5 +1,5 @@
 
-magic_number = 100
+cnt = 100
 
 while True:
     cnt=cnt+1
