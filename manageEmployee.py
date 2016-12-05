@@ -1,11 +1,5 @@
 
-employees = [
-                "John Smith",
-                "Jakie Jackson",
-                "Chris Jones",
-                "Amanda Cullen",
-                "Jeremy GoodWin"
-            ]
+employees = [line.rstrip('\n') for line in open("employee.txt")]
 candadite = input("Enter an employee name to remove:").strip()
 
 if candadite in employees:
