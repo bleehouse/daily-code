@@ -1,3 +1,5 @@
+//InnerPerson
+
 var Person = (function(){
 
 	var age = 25;
