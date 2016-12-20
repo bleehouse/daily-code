@@ -1,10 +1,10 @@
 import os
 import dominate
-from dominate.tags import attr, script, link, meta, div, li, p, a, ol
+from dominate.tags import attr, script, link, meta, div, li, p, a, ol, title
 
 
-def makeHtml(path, fileName, authorname, usecss, usejs):
-    doc = dominate.document(title='Dominate your HTML')
+def makeHtml(path, fileName, sitename, authorname, usecss, usejs):
+    doc = dominate.document(title=sitename)
 
     with doc.head:
         if (usecss.lower() == "y"):
@@ -43,5 +43,5 @@ author = str(input("Author : "))
 usejs = str(input("Do you want a folder for JavaScript?")).lower()
 usecss = str(input("Do you want a folder for CSS?")).lower()
 
-makeHtml(sitename, "index.html", author, usecss, usejs)
+makeHtml(sitename, "index.html", sitename, author, usecss, usejs)
 
