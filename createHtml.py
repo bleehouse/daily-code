@@ -1,6 +1,9 @@
 import os
 import dominate
-from dominate.tags import attr, script, link, meta, div, li, p, a, ol, title
+from dominate.tags import attr, script, link, meta, div, li, p, a, ol
+
+# http://stackoverflow.com/questions/273192/how-to-check-if-a-directory-exists-and-create-it-if-necessary
+# os.makedirs(path, exist_ok=True)
 
 
 def makeHtml(path, fileName, sitename, authorname, usecss, usejs):
@@ -22,8 +25,7 @@ def makeHtml(path, fileName, sitename, authorname, usecss, usejs):
         with div():
             attr(cls='body')
             p('Lorem ipsum..')
-    # http://stackoverflow.com/questions/273192/how-to-check-if-a-directory-exists-and-create-it-if-necessary
-    # os.makedirs(path, exist_ok=True)
+
     if not os.path.exists("./" + path):
         os.makedirs("./" + path)
 
