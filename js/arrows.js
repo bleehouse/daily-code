@@ -1,15 +1,32 @@
 // http://seokjun.kr/ecmascript-6-features/#arrows
 
+var evens = [2, 4, 6, 8, 10, 12];
+
+console.log("evens : " + evens);
+
 // Expression bodies
-var odds = evens.map(v => v + 1);  
+var odds = evens.map(v => v + 1);
+
+console.log("odds : " + odds);
+
 var nums = evens.map((v, i) => v + i);  
+
+console.log("nums : " + nums);
+
 var pairs = evens.map(v => ({even: v, odd: v + 1}));
+
+console.log("---- pairs ----");
+console.log(pairs);
+
+var fives = [];
 
 // Statement bodies
 nums.forEach(v => {  
   if (v % 5 === 0)
     fives.push(v);
 });
+
+console.log("fives : " + fives);
 
 // Lexical this
 var bob = {  
@@ -20,6 +37,14 @@ var bob = {
       console.log(this._name + " knows " + f));
   }
 }
+
+console.log(bob);
+
+bob._friends.push("tom");
+bob._friends.push("jane");
+
+bob.printFriends();
+
 
 // // Expression bodies
 // var odds = evens.map(function (v) {  
