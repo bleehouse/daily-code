@@ -2,10 +2,8 @@
 def wordsearchintext(text, word, wordcount):
 
     if text.find(word) > -1:
-        # print(text.find(word))
         text = text[(text.find(word)+1):]
         wordcount = wordcount + 1
-        # print(text)
         return wordsearchintext(text, word, wordcount)
     else:
         return wordcount
@@ -22,3 +20,5 @@ print(number)
 # print(s.find(s2))
 # print(s[(s.find(s2)+1):])
 
+# http://programminghistorian.org/lessons/counting-frequencies
+# http://stackoverflow.com/questions/21107505/python-word-count-from-a-txt-file-program
