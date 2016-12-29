@@ -46,3 +46,4 @@ print('City : {0}, Weather : {1} , Temperature : {2} {3}, Wind : {4} '.format(
     ))
 
 # http://docs.python-requests.org/en/master/
+# https://gist.github.com/RobertSudwarts/acf8df23a16afdb5837f
