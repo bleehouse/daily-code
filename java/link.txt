@@ -1,1 +1,73 @@
-https://www.tutorialspoint.com/java/java_online_quiz.htm
+java quiz : https://www.tutorialspoint.com/java/java_online_quiz.htm
+
+primitive type vs reference type : http://inetizenseo.tistory.com/12
+
+Q - What of the following is the default value of a local variable? (D)
+    A - null
+    B - 0
+    C - Depends upon the type of variable
+    D - Not assigned
+
+Local variables are not assigned any value by default.
+
+Q - Can we have two public classes in one java file? (B)
+    A - True
+    B - False
+
+No, a java file can contain only one public class.
+
+
+Q - Which of the following stands true about default modifier of class members? (C)
+
+A - By default, variables, methods and constructors can be accessed by subclass only.
+B - By default, variables, methods and constructors can be accessed by any class lying in any package.
+C - By default, variables, methods and constructors can be accessed by any class lying in the same package.
+D - None of the above.
+
+By default, variables, methods and constructors can be accessed by any class lying in the same package.
+
+Q - What is instance variable? (C)
+
+A - Instance variables are static variables within a class but outside any method.
+B - Instance variables are variables defined inside methods, constructors or blocks.
+C - Instance variables are variables within a class but outside any method.
+D - None of the above.
+
+Instance variables are variables within a class but outside any method. These variables are instantiated when the class is loaded.
+
+
+Q - What is true about a final class? (D)
+
+A - class declard final is a final class.
+B - Final classes are created so the methods implemented by that class cannot be overridden.
+C - It can't be inherited.
+D - All of the above.
+
+Final classes are created so the methods implemented by that class cannot be overridden. It can't be inherited. These classes are declared final.
+
+Q - What is Serialization? (B)
+
+A - Serialization is the process of writing the state of an object to another object.
+B - Serialization is the process of writing the state of an object to a byte stream.
+C - Both of the above.
+D - None of the above.
+
+Serialization is the process of writing the state of an object to a byte stream.
+
+Q - What is runtime polymorphism? (A)
+
+A - Runtime polymorphism is a process in which a call to an overridden method is resolved at runtime rather than at compile-time.
+B - Runtime polymorphism is a process in which a call to an overloaded method is resolved at runtime rather than at compile-time.
+C - Both of the above.
+D - None of the above.
+
+Runtime polymorphism or dynamic method dispatch is a process in which a call to an overridden method is resolved at runtime rather than at compile-time. In this process, an overridden method is called through the reference variable of a superclass.
+
+Q - What is currentThread()? (A)
+
+A - It is a Thread public static method used to obtain a reference to the current thread.
+B - It is a thread's instance method used to get thread count.
+C - It is a object's public static method used obtain a reference to the current thread.
+D - It is a object's instance method used to get thread count.
+
+currentThread() is a public static method of Thread class used to obtain a reference to the current thread.
