@@ -11,6 +11,7 @@ happy_bday = Song(["생일 축하합니다.", "고소 당하기는 싫으니까"
 
 bulls_on_parade = Song(["조개로 가득 찬 주머니 차고", "가족 주위에 모여든 그들"])
 
-happy_bday.sing_me_a_song()
+# happy_bday.sing_me_a_song()
+happy_bday['sing_me_a_song']
 
 bulls_on_parade.sing_me_a_song()
