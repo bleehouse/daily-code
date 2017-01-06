@@ -73,3 +73,46 @@ C - It is a object's public static method used obtain a reference to the current
 D - It is a object's instance method used to get thread count.
 
 currentThread() is a public static method of Thread class used to obtain a reference to the current thread.
+
+Q - What of the following is the default value of an instance variable? (C)
+
+A - null
+B - 0
+C - Depends upon the type of variable
+D - Not assigned
+
+Q - What is function overloading?
+
+A - Methods with same name but different parameters.
+B - Methods with same name but different return types.
+C - Methods with same name, same parameter types but different parameter names.
+D - None of the abov
+
+If a class has multiple functions by same name but different parameters, it is known as Method Overloading.
+
+Q - What is synchronization? (A)
+
+A - Synchronization is the capability to control the access of multiple threads to shared resources.
+B - Synchronization is the process of writing the state of an object to another object.
+C - Synchronization is the process of writing the state of an object to byte stream.
+D - None of the above.
+
+Synchronization is the capability to control the access of multiple threads to shared resources. synchronized keyword in java provides locking which ensures mutual exclusive access of shared resource and prevent data race.
+
+Q - What is runtime polymorphism? (A)
+
+A - Runtime polymorphism is a process in which a call to an overridden method is resolved at runtime rather than at compile-time.
+B - Runtime polymorphism is a process in which a call to an overloaded method is resolved at runtime rather than at compile-time.
+C - Both of the above.
+D - None of the above.
+
+Runtime polymorphism or dynamic method dispatch is a process in which a call to an overridden method is resolved at runtime rather than at compile-time. In this process, an overridden method is called through the reference variable of a superclass.
+
+Q - Which of the following is Faster, StringBuilder or StringBuffer? (A)
+
+A - StringBuilder
+B - StringBuffer
+C - Both of the above.
+D - none of the above.
+
+StringBuilder is faster than StringBuffer.
