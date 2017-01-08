@@ -116,3 +116,44 @@ C - Both of the above.
 D - none of the above.
 
 StringBuilder is faster than StringBuffer.
+
+Q - Can we compare int variable with a boolean variable? (B)
+A - True
+B - False
+
+True, Compile time error will occur if an int variable is compared with Boolean variable.
+
+Q - What is the default value of byte variable? (A)
+A - 0
+B - 0.0
+C - null
+D - not defined
+
+Byte variable has default value of 0 if defined as an instance/static variable.
+
+
+Q - What is the default value of Boolean variable? (B)
+A - true
+B - false
+C - null
+D - not defined
+
+boolean variable has default value of false if defined as an instance/static variable
+
+Q - Dynamic binding uses which information for binding? (B)
+A - type.
+B - object.
+C - Both of the above.
+D - None of the above.
+
+Dynamic binding uses object information for binding.
+
+
+Q - Which is the way in which a thread can enter the waiting state? (D)
+A - Invoke its sleep() method.
+B - invoke object's wait method.
+C - Invoke its suspend() method.
+D - All of the above
+
+A thread can enter the waiting state by invoking its sleep() method, by blocking on IO, by unsuccessfully attempting to acquire an object's lock, or by invoking an object's wait() method. It can also enter the waiting state by invoking its (deprecated) suspend() method.
+
