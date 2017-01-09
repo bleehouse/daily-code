@@ -157,3 +157,16 @@ D - All of the above
 
 A thread can enter the waiting state by invoking its sleep() method, by blocking on IO, by unsuccessfully attempting to acquire an object's lock, or by invoking an object's wait() method. It can also enter the waiting state by invoking its (deprecated) suspend() method.
 
+Q - Inheritance represents (B)
+A - HAS-A relationship.
+B - IS-A relationship.
+
+Inheritance represets IS-A relationship providing code reusablity . Consider the following statement: Circle is a Shape. Here Shape is super class and Circle is a child class extends the super class Shape
+
+
+Q - Can be constructor be made final? (B)
+A - True.
+B - False.
+
+No, this is not possible.
+
