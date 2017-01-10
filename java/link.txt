@@ -170,3 +170,18 @@ B - False.
 
 No, this is not possible.
 
+Q - Which of the following is true about String? (B)
+A - String is mutable.
+B - String is immutable.
+C - String is a data type.
+D - None of the above.
+
+String object is immutable so that once it is created a String object cannot be changed. Since String is immutable it can safely be shared between many threads which are considered very important for multithreaded programming.
+
+Q - Under what conditions is an object's finalize() method invoked by the garbage collector? (A)
+A - When it detects that the object has become unreachable.
+B - As soon as object is set as null.
+C - At fixed intervalm it checks for null value.
+D - None of the above
+
+The garbage collector invokes an object's finalize() method when it detects that the object has become unreachable.
