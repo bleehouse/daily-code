@@ -216,3 +216,32 @@ C - Both of the above
 D - none of the above
 
 StringBuffer is thread safe.
+
+
+Q - What is the size of boolean variable? (B)
+
+A - 8 bit
+B - 16 bit
+C - 32 bit
+D - not precisely defined
+
+The boolean data type can take either true or false, but its "size" isn't precisely defined.
+
+Q - Which of the following stands true about default modifier of class members? (C)
+
+A - By default, variables, methods and constructors can be accessed by subclass only.
+B - By default, variables, methods and constructors can be accessed by any class lying in any package.
+C - By default, variables, methods and constructors can be accessed by any class lying in the same package.
+D - None of the above
+
+By default, variables, methods and constructors can be accessed by any class lying in the same package.
+
+
+Q - Which of the following is a marker interface? (A)
+
+A - serializable
+B - comparable
+C - cloneable
+D - none of the above.
+
+serializable is a marker interface.
