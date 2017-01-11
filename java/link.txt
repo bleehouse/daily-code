@@ -185,3 +185,34 @@ C - At fixed intervalm it checks for null value.
 D - None of the above
 
 The garbage collector invokes an object's finalize() method when it detects that the object has become unreachable.
+
+Q - What is JIT compiler? (A)
+A - JIT improves the runtime performance of computer programs based on bytecode.
+B - JIT is an application development framework.
+C - JIT is an implementation of the Java Virtual Machine which executes Java programs.
+D - None of the above.
+
+JIT, Just In-Time Compiler, improves the runtime performance of computer programs based on bytecode.
+
+Q - Method Overloading is an example of (A)
+A - Static Binding.
+B - Dynamic Binding.
+C - Both of the above.
+D - None of the above
+
+Method Overloading is example of static binding.
+
+
+Q - Can a top level class be private or protected? (B)
+A - True.
+B - False.
+
+StringBuffer is thread safe.
+
+Q - Which of the following is a thread safe? (B)
+A - StringBuilder
+B - StringBuffer
+C - Both of the above
+D - none of the above
+
+StringBuffer is thread safe.
