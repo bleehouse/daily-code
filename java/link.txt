@@ -270,3 +270,28 @@ C - Both of the above.
 D - None of the above.
 
 Method Overloading is example of static binding.
+
+Q - Static functions can be accessed using null reference. (A)
+
+A - True
+B - False
+
+True, Static functions can be accessed via class name or via null reference.
+
+Q - What is the size of long variable? (D)
+A - 8 bit
+B - 16 bit
+C - 32 bit
+D - 64 bit
+
+The long data type is represented by 64-bit two's complement integer. 
+Minimum value: -263
+Maximum value: 263-1
+
+
+Q -  A class always has a default constructor. (B)
+A - True
+B - False
+
+It is not mandatory to have a default constructor in a class.
+
