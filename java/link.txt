@@ -245,3 +245,28 @@ C - cloneable
 D - none of the above.
 
 serializable is a marker interface.
+
+Q - What is the size of byte variable? (A)
+A - 8 bit
+B - 16 bit
+C - 32 bit
+D - 64 bit
+
+The byte data type is represented by an 8-bit signed two's complement integer.
+Minimum value: -128
+Maximum value: 127
+
+Q - Can be constructor be made final? (B)
+A - True.
+B - False.
+
+Explaination
+No, this is not possible.
+
+Q - Method Overloading is an example of (A)
+A - Static Binding.
+B - Dynamic Binding.
+C - Both of the above.
+D - None of the above.
+
+Method Overloading is example of static binding.
