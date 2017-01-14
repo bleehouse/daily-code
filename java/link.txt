@@ -295,3 +295,21 @@ B - False
 
 It is not mandatory to have a default constructor in a class.
 
+Q - What is the size of int variable? (C)
+A - 8 bit
+B - 16 bit
+C - 32 bit
+D - 64 bit
+
+The int data type is represented by 32-bit signed two's complement integer, 
+Minimum value: -231
+Maximum value: 231-1
+
+Q - Which of the following is false about String? (C)
+A - String is immutable.
+B - String can be created using new operator.
+C - String is a primary data type.
+D - None of the above.
+
+String is a object.
+
