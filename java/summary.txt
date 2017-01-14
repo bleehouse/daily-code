@@ -1,0 +1,11 @@
+byte : 1byte 8bit
+char : 2byte 16bit
+short : 2byte 16bit
+int : 4byte 32bit
+long : 8byte 64bit
+
+float : 4byte 32bit
+double : 8byte : 64bit
+boolean : 1byte 8bit
+
+마이너스로 변환하는 법 : 2진수로 바꾸고 1의 보수 (0은 1로 1은 0으로) 바꾸고 1을 더한 다음 다시 10진수로 바꾸로 -를 붙인다.
