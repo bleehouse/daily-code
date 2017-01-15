@@ -313,3 +313,18 @@ D - None of the above.
 
 String is a object.
 
+Q - Which arithmetic operations can result in the throwing of an ArithmeticException? (A)
+A - / , %
+B - * , +
+C - ! , -
+D - >>, <<
+
+Integer / and % can result in the throwing of an ArithmeticException.
+
+Q - What is a marker interface? (A)
+A - marker interface is an interface with no method.
+B - marker interface is an interface with single method, mark().
+C - marker interface is an interface with single method, marker().
+D - none of the above.
+
+Marker interface is an interface with no method.
