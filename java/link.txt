@@ -207,7 +207,7 @@ Q - Can a top level class be private or protected? (B)
 A - True.
 B - False.
 
-StringBuffer is thread safe.
+No, a top level class can not be private or protected. It can have either "public" or no modifier.
 
 Q - Which of the following is a thread safe? (B)
 A - StringBuilder
@@ -336,3 +336,11 @@ C - Methods with same name, same parameter types but different parameter names.
 D - None of the above.
 
 If a class has multiple functions by same name but different parameters, it is known as Method Overloading.
+
+Q - What is TreeSet Interface? (B)
+A - It is a Set implemented when we want elements in a tree based order.
+B - It is a Set implemented when we want elements in a sorted order.
+C - It is a Set implemented when we want elements in a binary tree format.
+D - It is a Set implemented when we want elements in a hiearchical order.
+
+TreeSet is a Set implemented when we want elements in a sorted order.
