@@ -12,7 +12,7 @@ public class caughtSpeeding  {
         
         if (speed <=60) {
             result = 0;
-        } else if(speed >=61 && speed <=80) {
+        } else if (speed >=61 && speed <=80) {
             result = 1;
         } else {
             result = 2;
