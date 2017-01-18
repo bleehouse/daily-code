@@ -15,10 +15,9 @@ public class SquirrelPlayer {
 		  }
 		  
 		  return isSquirrelsPlay;
-		}	
+	}	
 	
 	public static void main(String[] args) {
-		System.out.println();
 		System.out.println(squirrelPlay(70, false));
 		System.out.println(squirrelPlay(95, false));
 		System.out.println(squirrelPlay(95, true));
