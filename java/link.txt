@@ -1,5 +1,7 @@
 java quiz : https://www.tutorialspoint.com/java/java_online_quiz.htm
 
+            http://www.javatpoint.com/core-java-quiz
+
 playground : https://www.tutorialspoint.com/compile_java_online.php
 
 primitive type vs reference type : http://inetizenseo.tistory.com/12
@@ -344,3 +346,10 @@ C - It is a Set implemented when we want elements in a binary tree format.
 D - It is a Set implemented when we want elements in a hiearchical order.
 
 TreeSet is a Set implemented when we want elements in a sorted order.
+
+Q. What is the correct syntex for java method? (D)
+
+A. public void main(Stirng[] args)
+B. public static void main(sting[] args)
+C. public static main()
+D. none od the above
