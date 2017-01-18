@@ -1,4 +1,5 @@
-// CodingBat Logic-1 > squirrelPlay 
+// CodingBat Logic-1 > squirrelPlay  
+// http://codingbat.com/
 
 public class SquirrelPlayer {
 
