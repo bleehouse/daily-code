@@ -4,6 +4,8 @@ java quiz : https://www.tutorialspoint.com/java/java_online_quiz.htm
 
 playground : https://www.tutorialspoint.com/compile_java_online.php
 
+sql quiz : https://www.tutorialspoint.com/sql/sql_interview_questions.htm
+
 primitive type vs reference type : http://inetizenseo.tistory.com/12
 
 Q - What of the following is the default value of a local variable? (D)
