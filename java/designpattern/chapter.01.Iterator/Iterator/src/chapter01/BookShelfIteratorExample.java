@@ -4,7 +4,7 @@ public class BookShelfIteratorExample {
 
 	public static void main(String[] args) {
 
-		BookShelf bookshelf = new BookShelf(4);
+		BookShelf bookshelf = new BookShelf();
 		
 		bookshelf.appendBook(new Book("Around the World in 80 Days"));
 		bookshelf.appendBook(new Book("Bible"));
@@ -17,8 +17,6 @@ public class BookShelfIteratorExample {
 			Book book = (Book)it.next();
 			System.out.println(book.getName());
 		}
-		
 	}
-
 }
 
