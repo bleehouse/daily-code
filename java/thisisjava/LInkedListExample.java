@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class LInkedListExample {
+public class LinkedListExample {
 
 	public static void main(String[] args) {
 		List<String> list1 = new ArrayList<String>();
@@ -20,7 +20,7 @@ public class LInkedListExample {
 		
 		endTime = System.nanoTime();
 		
-		System.out.println("ArrayList �ɸ��ð� : " + (endTime - startTime) + " ns");
+		System.out.println("ArrayList 걸린시간 : " + (endTime - startTime) + " ns");
 		
 		startTime = System.nanoTime();
 		
@@ -30,7 +30,8 @@ public class LInkedListExample {
 
 		endTime = System.nanoTime();
 		
-		System.out.println("LinkedList �ɸ��ð� : " + (endTime - startTime) + " ns");		
+		System.out.println("LinkedList 걸린시간 : " + (endTime - startTime) + " ns");		
 	}
 
 }
+
