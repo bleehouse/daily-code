@@ -10,6 +10,8 @@ codingbat : http://codingbat.com/java
 
 primitive type vs reference type : http://inetizenseo.tistory.com/12
 
+java best practice : https://github.com/in28minutes/java-best-practices
+
 Q - What of the following is the default value of a local variable? (D)
     A - null
     B - 0
