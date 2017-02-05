@@ -2,6 +2,8 @@ java quiz : https://www.tutorialspoint.com/java/java_online_quiz.htm
 
             http://www.javatpoint.com/core-java-quiz
 
+            http://www.indiabix.com/java-programming/
+
 playground : https://www.tutorialspoint.com/compile_java_online.php
 
 sql quiz : https://www.tutorialspoint.com/sql/sql_interview_questions.htm
@@ -359,3 +361,26 @@ A. public void main(Stirng[] args)
 B. public static void main(sting[] args)
 C. public static main()
 D. none od the above
+
+Q. Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object? (C)
+A.	java.lang.String
+B.	java.lang.Double
+C.	java.lang.StringBuffer
+D.	java.lang.Character
+
+java.lang.StringBuffer is the only class in the list that uses the default methods provided by class Object.
+
+	
+Q. Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance? (C)
+A.	TreeMap
+B.	HashMap
+C.  LinkedHashMap
+D.	The answer depends on the implementation of the existing instance.
+
+The iteration order of a Collection is the order in which an iterator moves through the elements of the Collection. The iteration order of a LinkedHashMap is determined by the order in which elements are inserted.
+
+When a new LinkedHashMap is created by passing a reference to an existing Collection to the constructor of a LinkedHashMap the Collection.addAll method will ultimately be invoked.
+
+The addAll method uses an iterator to the existing Collection to iterate through the elements of the existing Collection and add each to the instance of the new LinkedHashMap.
+
+Since the iteration order of the LinkedHashMap is determined by the order of insertion, the iteration order of the new LinkedHashMap must be the same as the interation order of the old Collection
