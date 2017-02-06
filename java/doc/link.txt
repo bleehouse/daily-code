@@ -384,3 +384,20 @@ When a new LinkedHashMap is created by passing a reference to an existing Collec
 The addAll method uses an iterator to the existing Collection to iterate through the elements of the existing Collection and add each to the instance of the new LinkedHashMap.
 
 Since the iteration order of the LinkedHashMap is determined by the order of insertion, the iteration order of the new LinkedHashMap must be the same as the interation order of the old Collection
+
+Q. When is the B object, created in line 3, eligible for garbage collection? (D)
+A.	after line 5
+B.	after line 6
+C.	after line 7
+D.	There is no way to be absolutely certain.
+
+void start() {  
+    A a = new A(); 
+    B b = new B(); 
+    a.s(b);  
+    b = null; /* Line 5 */
+    a = null;  /* Line 6 */
+    System.out.println("start completed"); /* Line 7 */
+}
+
+No answer description available for this question. Let us discuss.
