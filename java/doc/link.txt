@@ -401,3 +401,36 @@ void start() {
 }
 
 No answer description available for this question. Let us discuss.
+
+Q. Where will be the most chance of the garbage collector being invoked? (D)
+
+class HappyGarbage01 
+{ 
+    public static void main(String args[]) 
+    {
+        HappyGarbage01 h = new HappyGarbage01(); 
+        h.methodA(); /* Line 6 */
+    } 
+    Object methodA() 
+    {
+        Object obj1 = new Object(); 
+        Object [] obj2 = new Object[1]; 
+        obj2[0] = obj1; 
+        obj1 = null; 
+        return obj2[0]; 
+    } 
+}
+
+A.	After line 9
+B.	After line 10
+C.	After line 11
+D.	Garbage collector never invoked in methodA()
+
+Option D is correct. Garbage collection takes place after the method has returned its reference to the object. The method returns to line 6, there is no reference to store the return value. so garbage collection takes place after line 6.
+
+Option A is wrong. Because the reference to obj1 is stored in obj2[0]. The Object obj1 still exists on the heap and can be accessed by an active thread through the reference stored in obj2[0].
+
+Option B is wrong. Because it is only one of the references to the object obj1, the other reference is maintained in obj2[0].
+
+Option C is wrong. The garbage collector will not be called here because a reference to the object is being maintained and returned in obj2[0].
+
