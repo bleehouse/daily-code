@@ -434,3 +434,11 @@ Option B is wrong. Because it is only one of the references to the object obj1, 
 
 Option C is wrong. The garbage collector will not be called here because a reference to the object is being maintained and returned in obj2[0].
 
+Q. What is the value of "d" after this line of code has been executed? (B)
+double d = Math.round ( 2.5 + Math.random() );
+A.	2
+B.	3
+C.	4
+D.	2.5
+
+The Math.random() method returns a number greater than or equal to 0 and less than 1 . Since we can then be sure that the sum of that number and 2.5 will be greater than or equal to 2.5 and less than 3.5, we can be sure that Math.round() will round that number to 3. So Option B is the answer.
