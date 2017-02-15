@@ -1,2 +1,8 @@
 [Spring AOP]
 https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:rte:fdl:aop:aspectj
+
+[Lombok]
+https://gualtierotesta.wordpress.com/2014/03/03/tutorial-using-lombok-to-reduce-boilerplate-code-in-java/
+
+[JPA Example With SpringBoot]
+http://jdm.kr/blog/121
