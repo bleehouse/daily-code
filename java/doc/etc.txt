@@ -6,3 +6,4 @@ https://gualtierotesta.wordpress.com/2014/03/03/tutorial-using-lombok-to-reduce-
 
 [JPA Example With SpringBoot]
 http://jdm.kr/blog/121
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods
