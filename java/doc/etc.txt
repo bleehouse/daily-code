@@ -7,3 +7,9 @@ https://gualtierotesta.wordpress.com/2014/03/03/tutorial-using-lombok-to-reduce-
 [JPA Example With SpringBoot]
 http://jdm.kr/blog/121
 https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods
+
+[Spring Boot Interceptor Configuration]
+http://blog.naver.com/PostView.nhn?blogId=wizardkyn&logNo=220673939175&parentCategoryNo=1&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView
+
+[Spring Boot Filter Configuration]
+https://spring.io/guides/gs/routing-and-filtering/
