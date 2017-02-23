@@ -33,6 +33,8 @@ public class SpringBootWebExampleApplication {
                 registry.addInterceptor(new HttpInterceptor());
             }
             
+            // https://github.com/pkainulainen/spring-from-the-trenches/blob/master/type-converters/src/test/java/net/petrikainulainen/spring/trenches/DateTimeControllerTest.java
+            
             @Override
             public void addFormatters(FormatterRegistry registry) {
 //                registry.addConverter(new LocalDateConverter("yyyy-MM-dd"));
