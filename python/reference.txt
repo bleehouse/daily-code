@@ -1,2 +1,5 @@
 [Python GIL]
 https://medium.com/@mjhans83/python-gil-f940eac0bef9#.i3h3vcrov
+
+[Python Multi Processing]
+https://www.slideshare.net/yongho/2011-h3
