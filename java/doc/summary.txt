@@ -23,3 +23,29 @@ private        | 필드, 생성자, 메소드            | 모든 외부 클래�
 
 Exception 의 순서는 적은 범위 순에서 큰 범위 순으로 나열해야 합니다.
 에러가 발행할 여지가 있는 코드에 예외처리를 해주는 것은 맞지만, 모든 코드에 예외처리를 해줄 필요는 업습니다.
+예외 클래스를 견고하게 만들면 더 안정적인 프로그램이 됩니다.
+
+class CustomException extends Exception {
+
+private final int ERR_CODE;
+    CustomException(String msg, int errCode) {
+        super(msg);
+        ERR_CODE = errCode;
+    }
+
+    CustomException(String msg){
+        this(msg, 100); //에러코드가 없을 때 기본 100으로 셋팅
+    }
+
+    public int getErrorCode)_{
+        return ERR_CODE;
+    }
+}
+
+1. 예외처리에 대한 내용입니다. 다음중 옮지 않은 것을 고르시기 바랍니다. (1)
+1) try 문 뒤에는 반드시 catch, finally 가 모두 존재해야 한다.
+2) catch 블록을 다형적으로 한 개 이상 만들 수 있다.
+3) 메소드에서는 한 종류의 예외만 던질 수 있다.
+4) catch 블록의 순서는 범위가 적은 순에서 범위가 큰 순으로 나열한다.
+
+해설 : try블록 뒤에 catch 문은 다중으로 한 개 이상 와야 하지만 finally 문은 필수가 아니라서 사용하지 않아도 됩니다.
